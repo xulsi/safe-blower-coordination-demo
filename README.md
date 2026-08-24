@@ -55,5 +55,11 @@ The code layout was produced with the help of [PaperCoder / Paper2Code](https://
 
 ## Contact
 
-Questions about the **scientific method**: see the paper and the corresponding author listed there.  
-Questions about **plant data or the production tool**: those materials stay with the project partners and are available only under the agreements that cover them.
+This demonstration is maintained by **Xhulia Sina**, co-author of the paper (University of Genoa / Simulation Team).
+
+If you want to try the demo, have questions about the method, or need help running the code, please get in touch:
+
+- Email: [xhulia.sina@simulationteam.com](mailto:xhulia.sina@simulationteam.com)
+- GitHub: open an issue on this repository
+
+Requests for **client plant data or the production tool** cannot be shared here. Those materials stay with the project partners and are available only under the agreements that cover them.
