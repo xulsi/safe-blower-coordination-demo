@@ -1,0 +1,310 @@
+[
+  {
+    "scenario": "single_blower_low_demand",
+    "demand": 2500.0,
+    "method": "grid",
+    "energy_savings_percent": 27.750000000000007,
+    "runtime_seconds": 0.00013971328735351562,
+    "evaluation_count": 9,
+    "total_power": 30.627717391304344,
+    "header_pressure": 51.0,
+    "optimal_configuration": {
+      "on_off": [
+        1,
+        0,
+        0
+      ],
+      "speeds": [
+        0.85,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "scenario": "single_blower_low_demand",
+    "demand": 2500.0,
+    "method": "sbo",
+    "energy_savings_percent": 30.83357696650104,
+    "runtime_seconds": 0.3365190029144287,
+    "evaluation_count": 35,
+    "total_power": 29.320548894635426,
+    "header_pressure": 51.0,
+    "optimal_configuration": {
+      "on_off": [
+        1,
+        0,
+        0
+      ],
+      "speeds": [
+        0.8316635319256157,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "scenario": "single_blower_medium_demand",
+    "demand": 3400.0,
+    "method": "grid",
+    "energy_savings_percent": 27.749999999999996,
+    "runtime_seconds": 7.295608520507812e-05,
+    "evaluation_count": 9,
+    "total_power": 41.65369565217391,
+    "header_pressure": 51.0,
+    "optimal_configuration": {
+      "on_off": [
+        1,
+        0,
+        0
+      ],
+      "speeds": [
+        0.85,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "scenario": "single_blower_medium_demand",
+    "demand": 3400.0,
+    "method": "sbo",
+    "energy_savings_percent": 17.33364326791943,
+    "runtime_seconds": 0.3214271068572998,
+    "evaluation_count": 35,
+    "total_power": 47.65895175075601,
+    "header_pressure": 51.0,
+    "optimal_configuration": {
+      "on_off": [
+        1,
+        0,
+        0
+      ],
+      "speeds": [
+        0.9092104087178091,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "scenario": "dual_blower_low_demand",
+    "demand": 5000.0,
+    "method": "grid",
+    "energy_savings_percent": 27.750000000000007,
+    "runtime_seconds": 0.0004730224609375,
+    "evaluation_count": 81,
+    "total_power": 61.25543478260869,
+    "header_pressure": 51.0,
+    "optimal_configuration": {
+      "on_off": [
+        1,
+        1,
+        0
+      ],
+      "speeds": [
+        0.85,
+        0.85,
+        0.0
+      ]
+    }
+  },
+  {
+    "scenario": "dual_blower_low_demand",
+    "demand": 5000.0,
+    "method": "sbo",
+    "energy_savings_percent": 27.644358968007488,
+    "runtime_seconds": 0.3298830986022949,
+    "evaluation_count": 35,
+    "total_power": 61.345000005384954,
+    "header_pressure": 51.0,
+    "optimal_configuration": {
+      "on_off": [
+        1,
+        1,
+        0
+      ],
+      "speeds": [
+        0.8757884122288164,
+        0.8229947164675129,
+        0.0
+      ]
+    }
+  },
+  {
+    "scenario": "dual_blower_medium_demand",
+    "demand": 6400.0,
+    "method": "grid",
+    "energy_savings_percent": 27.750000000000007,
+    "runtime_seconds": 0.0004363059997558594,
+    "evaluation_count": 81,
+    "total_power": 78.40695652173912,
+    "header_pressure": 51.0,
+    "optimal_configuration": {
+      "on_off": [
+        1,
+        1,
+        0
+      ],
+      "speeds": [
+        0.85,
+        0.85,
+        0.0
+      ]
+    }
+  },
+  {
+    "scenario": "dual_blower_medium_demand",
+    "demand": 6400.0,
+    "method": "sbo",
+    "energy_savings_percent": 20.62450818528012,
+    "runtime_seconds": 0.3229708671569824,
+    "evaluation_count": 35,
+    "total_power": 86.13966416066992,
+    "header_pressure": 51.0,
+    "optimal_configuration": {
+      "on_off": [
+        1,
+        1,
+        0
+      ],
+      "speeds": [
+        0.8500628947940057,
+        0.9268279443138558,
+        0.0
+      ]
+    }
+  },
+  {
+    "scenario": "dual_blower_high_demand",
+    "demand": 8000.0,
+    "method": "grid",
+    "energy_savings_percent": 19.000000000000007,
+    "runtime_seconds": 0.00037217140197753906,
+    "evaluation_count": 81,
+    "total_power": 109.87826086956522,
+    "header_pressure": 51.0,
+    "optimal_configuration": {
+      "on_off": [
+        1,
+        1,
+        0
+      ],
+      "speeds": [
+        0.9,
+        0.9,
+        0.0
+      ]
+    }
+  },
+  {
+    "scenario": "dual_blower_high_demand",
+    "demand": 8000.0,
+    "method": "sbo",
+    "energy_savings_percent": 18.26037197599728,
+    "runtime_seconds": 0.3215301036834717,
+    "evaluation_count": 35,
+    "total_power": 110.881582362995,
+    "header_pressure": 51.0,
+    "optimal_configuration": {
+      "on_off": [
+        1,
+        1,
+        0
+      ],
+      "speeds": [
+        0.9193418130724179,
+        0.8880448708390908,
+        0.0
+      ]
+    }
+  },
+  {
+    "scenario": "triple_blower_high_demand",
+    "demand": 10800.0,
+    "method": "grid",
+    "energy_savings_percent": 24.721153846153854,
+    "runtime_seconds": 0.003734111785888672,
+    "evaluation_count": 729,
+    "total_power": 137.85847826086956,
+    "header_pressure": 51.0,
+    "optimal_configuration": {
+      "on_off": [
+        1,
+        1,
+        1
+      ],
+      "speeds": [
+        0.85,
+        0.85,
+        0.9
+      ]
+    }
+  },
+  {
+    "scenario": "triple_blower_high_demand",
+    "demand": 10800.0,
+    "method": "sbo",
+    "energy_savings_percent": 14.332280532650998,
+    "runtime_seconds": 0.31793212890625,
+    "evaluation_count": 35,
+    "total_power": 156.88366712890175,
+    "header_pressure": 51.0,
+    "optimal_configuration": {
+      "on_off": [
+        1,
+        1,
+        1
+      ],
+      "speeds": [
+        0.9757698088908311,
+        0.8966560225334268,
+        0.8975189977945209
+      ]
+    }
+  },
+  {
+    "scenario": "triple_blower_very_high_demand",
+    "demand": 12600.0,
+    "method": "grid",
+    "energy_savings_percent": 19.000000000000007,
+    "runtime_seconds": 0.0029671192169189453,
+    "evaluation_count": 729,
+    "total_power": 173.05826086956523,
+    "header_pressure": 51.0,
+    "optimal_configuration": {
+      "on_off": [
+        1,
+        1,
+        1
+      ],
+      "speeds": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    }
+  },
+  {
+    "scenario": "triple_blower_very_high_demand",
+    "demand": 12600.0,
+    "method": "sbo",
+    "energy_savings_percent": 14.332280532650998,
+    "runtime_seconds": 0.3165550231933594,
+    "evaluation_count": 35,
+    "total_power": 183.0309449837187,
+    "header_pressure": 51.0,
+    "optimal_configuration": {
+      "on_off": [
+        1,
+        1,
+        1
+      ],
+      "speeds": [
+        0.9757698088908311,
+        0.8966560225334268,
+        0.8975189977945209
+      ]
+    }
+  }
+]
