@@ -51,8 +51,6 @@ Outputs are printed to the terminal. `compare_gs_sbo.py` also writes `comparison
 
 If you use this demo, please cite the Energies paper (DOI above).
 
-The code layout was produced with the help of [PaperCoder / Paper2Code](https://github.com/going-doer/Paper2Code) (Seo et al., ICLR 2026) from the public article text, then calibrated so the demonstration actually executes without confidential inputs.
-
 ## Contact
 
 This demonstration is maintained by **Xhulia Sina**, co-author of the paper (University of Genoa / Simulation Team).
